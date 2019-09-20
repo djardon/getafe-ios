@@ -8,6 +8,12 @@
 
 import Foundation
 
+
+enum TeacherType: String {
+    case intern
+    case extern
+}
+
 class Teacher: Hashable {
     // Equatable protocol implementation
     static func == (lhs: Teacher, rhs: Teacher) -> Bool {
