@@ -54,14 +54,70 @@
 		0F504E342333FF79007EAFC0 /* CursoiOS */ = {
 			isa = PBXGroup;
 			children = (
-				0F504E352333FF79007EAFC0 /* AppDelegate.swift */,
-				0F504E412333FF7A007EAFC0 /* Info.plist */,
-				0F504E372333FF79007EAFC0 /* ViewController.swift */,
-				0F504E392333FF79007EAFC0 /* Main.storyboard */,
-				0F504E3E2333FF7A007EAFC0 /* LaunchScreen.storyboard */,
-				0FE27A1B2335184400F078BF /* Assets.xcassets */,
+				0FE27A1D23352B1800F078BF /* App */,
+				0FE27A1F23352B8E00F078BF /* Resources */,
+				0FE27A1E23352B7B00F078BF /* Data */,
+				0FE27A2023352BD600F078BF /* UI */,
 			);
 			path = CursoiOS;
+			sourceTree = "<group>";
+		};
+		0FE27A1D23352B1800F078BF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0F504E352333FF79007EAFC0 /* AppDelegate.swift */,
+				0F504E412333FF7A007EAFC0 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0FE27A1E23352B7B00F078BF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0FE27A1F23352B8E00F078BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0FE27A1B2335184400F078BF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0FE27A2023352BD600F078BF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0FE27A2123352BED00F078BF /* Views */,
+				0FE27A2223352BF400F078BF /* Controllers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0FE27A2123352BED00F078BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0FE27A2323352C5B00F078BF /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0FE27A2223352BF400F078BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F504E372333FF79007EAFC0 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0FE27A2323352C5B00F078BF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0F504E392333FF79007EAFC0 /* Main.storyboard */,
+				0F504E3E2333FF7A007EAFC0 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
