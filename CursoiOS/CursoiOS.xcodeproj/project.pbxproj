@@ -12,6 +12,7 @@
 		0F504E3B2333FF79007EAFC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F504E392333FF79007EAFC0 /* Main.storyboard */; };
 		0F504E402333FF7A007EAFC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F504E3E2333FF7A007EAFC0 /* LaunchScreen.storyboard */; };
 		0FE27A1C2335184400F078BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FE27A1B2335184400F078BF /* Assets.xcassets */; };
+		0FE27A2A2335365200F078BF /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE27A26233534ED00F078BF /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0F504E3F2333FF7A007EAFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F504E412333FF7A007EAFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FE27A1B2335184400F078BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FE27A26233534ED00F078BF /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		0FE27A1E23352B7B00F078BF /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				0FE27A24233532AB00F078BF /* Local */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -118,6 +121,22 @@
 				0F504E3E2333FF7A007EAFC0 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0FE27A24233532AB00F078BF /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				0FE27A25233532B600F078BF /* Models */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		0FE27A25233532B600F078BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0FE27A26233534ED00F078BF /* Student.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F504E382333FF79007EAFC0 /* ViewController.swift in Sources */,
+				0FE27A2A2335365200F078BF /* Student.swift in Sources */,
 				0F504E362333FF79007EAFC0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,7 +362,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = CursoiOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CursoiOS/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -361,7 +381,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = CursoiOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CursoiOS/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
