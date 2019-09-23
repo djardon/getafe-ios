@@ -9,6 +9,7 @@
 import Foundation
 
 class Student: CustomStringConvertible {
+    // MARK: Properties
     //Properties whit optional '?' value can be nil
     var name: String?
     var email: String?
