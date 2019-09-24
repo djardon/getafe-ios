@@ -64,10 +64,16 @@
 			children = (
 				0FE27A1D23352B1800F078BF /* App */,
 				0FE27A1F23352B8E00F078BF /* Resources */,
-				0FE27A1E23352B7B00F078BF /* Data */,
-				0FE27A2023352BD600F078BF /* UI */,
+				0FE27A2023352BD600F078BF /* Source */,
 			);
 			path = CursoiOS;
+			sourceTree = "<group>";
+		};
+		0F690DED233A2290003260E0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		0FE27A1D23352B1800F078BF /* App */ = {
@@ -95,18 +101,20 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		0FE27A2023352BD600F078BF /* UI */ = {
+		0FE27A2023352BD600F078BF /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				0FE27A1E23352B7B00F078BF /* Data */,
+				0F690DED233A2290003260E0 /* ViewModels */,
 				0FE27A2123352BED00F078BF /* Views */,
-				0FE27A2223352BF400F078BF /* Controllers */,
 			);
-			path = UI;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		0FE27A2123352BED00F078BF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0FE27A2223352BF400F078BF /* Controllers */,
 				0FE27A2323352C5B00F078BF /* Storyboards */,
 			);
 			path = Views;
